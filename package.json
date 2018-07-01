@@ -1,0 +1,15 @@
+{
+  "name": "my_second_first_api",
+  "version": "1.0.0",
+  "description": "TS JS API",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --outDir ./build --module commonjs ./app/*.ts"
+  },
+  "author": "Mark Nuiver",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^1.13.7",
+    "typescript": "^2.9.2"
+  }
+}
