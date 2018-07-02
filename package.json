@@ -4,7 +4,7 @@
   "description": "TS JS API",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc --outDir ./build --module commonjs ./app/*.ts"
+    "compile": "tsc --outDir ./build --module commonjs ./app/*.ts --target ES2016"
   },
   "author": "Mark Nuiver",
   "license": "ISC",
